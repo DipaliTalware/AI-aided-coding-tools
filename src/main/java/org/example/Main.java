@@ -28,6 +28,22 @@ public class Main {
 
 
         System.out.println("First " + n + " prime numbers: " + primes);
+
+        // sorting
+
+        int[] numbers = {5, 2, 9, 1, 5, 6};
+
+        System.out.println("Original array:");
+        for (int number : numbers) {
+            System.out.print(number + " ");
+        }
+
+        BubbleSort.sortArray(numbers);
+
+        System.out.println("\nSorted array:");
+        for (int number : numbers) {
+            System.out.print(number + " ");
+        }
     }
 
 }
